@@ -9,7 +9,10 @@ import com.lizhizhao.dubbo.provider.service.impl.EchoServiceImpl;
 
 import java.io.IOException;
 
-public class EchoProvider {
+/**
+ * 基于api方式暴露服务
+ */
+public class EchoApiProvider {
 
     public static void main(String[] args) throws IOException {
         ServiceConfig<EchoService> service = new ServiceConfig<>();
